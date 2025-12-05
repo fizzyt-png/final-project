@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Dreams</title>
+        <meta name="name" content="Ezra Tuitel">
+        <meta name="description" content="Contact page">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+        <!-- Web Fonts -->
+       
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+   <body>
+        <header>
+              <h1><a href="index.html">Swiss Dreams</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+        </header>
+        <main class="contact">
+
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+                <img src="images/swiss-peak.jpg" alt="a swiss mountain peak in the center of the frame with blue skies above and green trees and a river below">
+           
+
+            <form action="/form-viewer.php" method="post"> 
+                <label for="fullname">Full Name:*</label><br>
+                <input type="text" id="fullname" name="fullname" required><br>
+                
+
+                <label for="email">Email Address:*</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+
+                <label for="tel">Phone Number:*</label><br>
+                <input type="tel" id="tel" name="tel" required><br>
+               
+                <p>Preferred Contact Method</p>
+
+                <input type="radio" id="email-2" name="contact" value="Email">
+                <label for="email-2">Email</label><br>
+
+                <input type="radio" id="phone" name="contact" value="phone">
+                <label for="phone">Phone</label><br>
+                <br>
+
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="30" required></textarea>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+    
+
+        </main>
+
+        <footer>
+            <p>Copyright ©2023 - Swiss Dreams</p>
+            <p> This site is for educational purposes only</p>
+        </footer>
+
+   </body>
